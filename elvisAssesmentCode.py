@@ -3,7 +3,7 @@ queue = ['A19','B28','C23','D4','E78','F90','G32','H54','I32','J12','J67','L90',
 
 while option != 3:
 
-    print ("Welcome to WhooziJuicy \n \n")
+    print ("Welcome to WHOOZIJUICY \n \n")
 
     age = input ("How old are you? \n")
 
@@ -15,7 +15,7 @@ while option != 3:
         queue.append(str(age))
         print ("You in, enjoy yourself \n")
 
-    option = input ("Press 1 to view the queue \nPress 2 to continue \nPress 3 to see the age of Q24 \n \n")
+    option = input ("Press 1 to view the queue \nPress 2 to continue \nPress 3 to see the age of Q24 \n")
 
     if int(option) == 1:
         print (queue)
