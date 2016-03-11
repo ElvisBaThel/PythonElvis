@@ -13,13 +13,13 @@ while option != 3:
         print ("You are too old to get in \n")
     else:
         queue.append(str(age))
-        print ("You in, enjoy yourself \n \n")
+        print ("You in, enjoy yourself \n")
 
     option = input ("Press 1 to view the queue \nPress 2 to continue \nPress 3 to see the age of Q24 \n \n")
 
     if int(option) == 1:
         print (queue)
-        option = input ("Press 2 to continue and let someone else in \n \n")
+        option = input ("Press 2 to continue and let someone else in \n")
     elif int(option) == 2:
         print ("\n")
     elif int(option) == 3:
@@ -34,5 +34,4 @@ while option != 3:
 
         
         print (int(age1) + int(age2))
-        
         
