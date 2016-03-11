@@ -35,4 +35,4 @@ while option != 3:
         
         print (int(age1) + int(age2))
         
-        print ("\n")
+        
